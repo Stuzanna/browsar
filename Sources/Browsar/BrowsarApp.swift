@@ -11,7 +11,7 @@ struct BrowsarApp: App {
     }
 
     var body: some Scene {
-        MenuBarExtra("Browsar", systemImage: "globe") {
+        MenuBarExtra("Browsar", systemImage: "network") {
             BrowserMenuContent(browserManager: browserManager)
         }
     }

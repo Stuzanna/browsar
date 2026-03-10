@@ -1,8 +1,8 @@
 # Browsar
 
-A macOS menu bar utility for switching the system default browser. Browsar sits in your menu bar and lets you change which browser handles links with a single click.
+A macOS menu bar utility for quickly switching the system default browser.
 
-This is a default browser **switcher**, not a per-URL picker. It changes the actual macOS system default browser setting.
+Browsar sits in your menu bar and lets you change which browser handles links.
 
 ## Requirements
 
@@ -27,7 +27,7 @@ make uninstall
 
 ## Usage
 
-1. Click the globe icon in the menu bar
+1. Click the network icon in the menu bar
 2. See all installed browsers with a checkmark next to the current default
 3. Click a browser to make it the new system default
 4. Any links opened system-wide now go to your chosen browser
@@ -41,6 +41,10 @@ make build    # build to build/Browsar.app
 make run      # build and launch from build directory
 make clean    # remove build artifacts
 ```
+
+### Custom App Icon
+
+Optionally, place a 1024x1024 PNG at `Resources/AppIcon.png`. The build will generate all required sizes and bundle the icon automatically.
 
 ## Architecture
 
