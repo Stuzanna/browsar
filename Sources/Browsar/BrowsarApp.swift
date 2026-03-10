@@ -1,9 +1,14 @@
+import ServiceManagement
 import SwiftUI
 
 @main
 struct BrowsarApp: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     @StateObject private var browserManager = BrowserManager.shared
+
+    init() {
+        try? SMAppService.mainApp.register()
+    }
 
     var body: some Scene {
         MenuBarExtra("Browsar", systemImage: "globe") {
