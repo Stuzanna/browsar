@@ -4,6 +4,9 @@ A macOS menu bar utility for quickly switching the system default browser.
 
 Browsar sits in your menu bar and lets you change which browser handles links.
 
+
+![Browsar browser list](img/browser-list-overview.jpg)
+
 ## Requirements
 
 - macOS 13 (Ventura) or later
