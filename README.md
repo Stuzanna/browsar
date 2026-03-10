@@ -2,6 +2,9 @@
 
 A macOS menu bar utility for quickly switching the system default browser.
 
+After spending too long looking for a replacement to [Objektiv](https://github.com/nthloop/Objektiv#), I decided it would be quicker (and more fun) to vibe code my own.
+
+
 Browsar sits in your menu bar and lets you change which browser handles links.
 
 
